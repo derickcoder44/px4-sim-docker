@@ -25,6 +25,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v4
         with:
+          repository: derickcoder44/px4-sim-docker
           submodules: recursive
 
       - name: set up Docker Buildx
