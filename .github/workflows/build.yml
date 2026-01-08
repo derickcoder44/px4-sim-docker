@@ -10,6 +10,10 @@ on:
   repository_dispatch:
     types: [upstream-updated]
 
+permissions:
+  contents: read
+  packages: write
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: derickcoder44/px4-sim-docker
