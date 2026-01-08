@@ -40,7 +40,8 @@ RUN pip3 install \
     pyserial \
     toml \
     numpy \
-    pandas
+    pandas \
+    pyros-genmsg
 
 # Install Gazebo Garden
 RUN wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg && \
